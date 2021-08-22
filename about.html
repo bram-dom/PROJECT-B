@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>bursaryapplicationprocess</title>
+</head>
+    <a href="#" class="logo">BAP<span>.</span></a>
+    <nav>
+        <div class="navbar">
+            <ul class="navigation">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="./application.html">APPLICATION FORM</a></li>
+                <li><a href="./loan status.html">LOAN STATUS</a></li>
+                <li><a href="./shortlisted list.html">SHORTLISTED LIST</a></li>
+                <li><a href="./announcements.html">ANNOUNCEMENTS</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                  </div>
+<body>
+    <p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+</script>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+...
+</body>
+</html>
